@@ -96,11 +96,11 @@
                     },
                     "seo-menu": {
                         nodeMenu: {
-                            addSharholder: {
-                                text: "Add new sharholder",
-                                icon: OrgChart.icon.add(24, 24, "#7A7A7A"),
-                                onClick: addSharholder
-                            },
+                            // addSharholder: {
+                            //     text: "Add new sharholder",
+                            //     icon: OrgChart.icon.add(24, 24, "#7A7A7A"),
+                            //     onClick: addSharholder
+                            // },
                             addDepartment: {
                                 text: "Add new department",
                                 icon: OrgChart.icon.add(24, 24, "#7A7A7A"),
@@ -111,12 +111,19 @@
                                 icon: OrgChart.icon.add(24, 24, "#7A7A7A"),
                                 onClick: addAssistant
                             },
+                            add: {
+                                text: "Add"
+                            },
+
                             edit: {
                                 text: "Edit"
                             },
                             details: {
                                 text: "Details"
                             },
+                            remove: {
+                                text: "Remove"
+                            }
                         }
                     },
                     "menu-without-add": {
@@ -191,7 +198,8 @@
                     pid: 0,
                     name: "Default Node",
                     title: "",
-                    img: "U"
+                    img: "U",
+                    tags: ["seo-menu"]
                 },
 
             ]);
